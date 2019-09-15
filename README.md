@@ -1,4 +1,4 @@
-# lab-check-exceptions-in-streams
+# Lab: Check-Exceptions in Streams
 A simple Project/Lab about managing Checked Exception in Streams  (Java 8)
 
 
@@ -20,24 +20,24 @@ in the solutions)</br>
 ### IDEAs PRESENTED ###
 
  
-1. Nothing more that the simple code block the use idiomatic</br>
+1. Nothing more that the simple code-block that use idiomatic</br>
    try/catch to managed the Checked Exception trasforming it in</br>
    a Runtime Exception</br>
 
 
 2. In this example, a static-factory method is used to produce a Function</br>
    without Checked-Exception. It's also create a specific Runtime-Exception.</br>
-   Better than (1) but specific an however not elegant...</br>
+   Better than (1) but specific and however not elegant...</br>
 
 
 3. In this example, a static-factory method is used with the new</br>
    concept of ThrowingFunction that extends Function; using the Java 8</br>
-   interface featurea it's possible to create a better abstraction</br>
+   interface features it's possible to create a better abstraction</br>
    We have the traslatation from Checked to Runtime Exception</br>
   
   
 4. Similar to (3) but, this time, we have a Sneaky Throw...</br>
-   Using some trick on Generics translatation we can retain the</br>
+   Using some trick on Generics translation we can retain the</br>
    Checked Exception that can be thrown in the ThrowingFunction.</br>
                
 
@@ -54,7 +54,7 @@ in the solutions)</br>
 
 7. Similar to (6) but, this time, it's introduced the concept of</br>
    Collector. Less verbose than (6), in this example it's used a</br>
-   custom Collector to "flattening" the Opotionals</br>
+   custom Collector to "flattening" the Optionals</br>
 
 
 8. In this example is used the concept of Split Iterator.</br>
