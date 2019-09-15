@@ -8,8 +8,8 @@ A simple Project/Lab about managing Checked Exception in Streams  (Java 8)
 Starting from Java 8, the concept of Stream is introduced</br> 
 There are more features and it's considered the main FP Monad</br>
 introduced in Java. This abstraction has different methods that</br>
-take some Function as argument but these have no checked exception</br>
-exception support... How can we do?</br>
+take some Function as an argument but these have no Check-Exceptions</br>
+support... How can we do?</br>
 
 In this simple project, I've harvested all main idea about the</br>
 argument; these ideas are presented as progression relate to</br>
